@@ -1,0 +1,214 @@
+/*
+---Barra de Navegação Horizontal---
+ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ width: 720px;
+ background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+ float: left;
+}
+
+ul li{
+
+	float: left;
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y;
+}
+ul .primeiro a{
+	background: none;
+
+}
+ul a:hover{
+	color: #085662;
+	background: #44cade;
+}
+*/
+/*
+---Barra de navegação aba---
+
+body{
+	font-family: sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+
+ul li{
+	float: left;
+	background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+
+li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(../imagens/aba-esquerda.png) no-repeat;
+	color: #fff;
+}
+
+ul a:hover{ 
+	color: #894a1f;
+}
+
+ul #atual{
+	background: url(../imagens/aba-esquerda-atual.png) no-repeat top right;
+}
+ul #atual a{
+	background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+*/
+
+/*
+---Layouts---
+
+
+body{
+	font-family: sans-serif;
+	background: #f2f2f2;
+}
+
+#conteiner{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff url('../imagens/coluna.png') repeat-y left top;
+	min-width: 820px;
+}
+
+#marca{
+	width: 100%;
+	height: 200px;
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 300px;	
+}
+
+#conteudo{
+	width: 74%;
+	float: right;
+}
+
+#principal{
+	width: 320px;
+	float: left;
+}
+
+img.img-noticia{
+	width: 100%;
+	padding: 1em;
+	max-width: 600px;
+}
+
+#secundario{
+	width: 180px;
+	float: right;
+	background: #d1d1d1;
+}
+#secundario h1,#secundario h2,#secundario h3,#secundario p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao{
+	width: 23%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+
+#navegacao ul{
+	list-style: none;
+}
+
+#navegacao li a{
+	text-decoration: none;
+}
+*/
+/*
+Tabela
+
+
+body{
+	font-family: sans-serif;
+}
+table{
+	width: 600px;
+	border-collapse: collapse;
+
+}
+
+th, td{
+	padding: 6px;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado{
+		background-color: #efefef;
+}
+
+.numero{
+	text-align: right;
+}
+
+tr:hover{
+	background-color: #c3e6e5;
+}
+*/
+/*
+Formulário
+
+
+body{
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+fieldset{
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+}
+
+input[type="text"]{
+	width: 200px;
+}
+
+#comentarios{
+	width: 250px;
+	padding: 2em;
+}
+
+*/
